@@ -1,5 +1,7 @@
 # Nederburg theme for hugo
 
+**Upstream repository seems to be adandoned: my [PR](https://github.com/appernetic/hugo-nederburg-theme/pull/70) hangs for over few months. I am going to send fixes to my fork only from now on.**
+
 Nederburg is a fast and secure theme.
 
 This Hugo theme was ported from [competethemes](https://www.competethemes.com/tracks/).
