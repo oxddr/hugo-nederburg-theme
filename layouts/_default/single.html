@@ -79,7 +79,8 @@
             <p>
               <span>Categories</span>
               {{ range $index, $name := .Params.categories }}
-                <a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}" title="View all posts in {{ $name }}">{{ $name }}</a>
+                <a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}"
+                   title="View all posts in {{ $name }}">{{ $name }}</a>
               {{ end }}
             </p>
           </div>
@@ -87,7 +88,8 @@
             <p>
               <span>Tags</span>
               {{ range $index, $name := .Params.tags }}
-                <a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}" title="View all posts tagged {{ $name }}">{{ $name }}</a>
+                <a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}"
+                   title="View all posts tagged {{ $name }}">{{ $name }}</a>
               {{ end }}
             </p>
           </div>
